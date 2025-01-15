@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def get_lunch_lists():
-    url = 'https://www.lounaat.info/lounas/moro-sky-bar/tampere'
+    url = 'https://www.lounaat.info/lounas/food-co-tulli-business-park/tampere'
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
